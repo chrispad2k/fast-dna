@@ -8,12 +8,14 @@ import "./style.css";
 import examples from "./registry";
 import toolingGuidance from "./.tmp/tooling-guidance";
 import toolingReactGuidance from "./.tmp/tooling-react-guidance";
+const FASTInlineLogo = require("@microsoft/site-utilities/statics/assets/inline-logo.png");
 
 // prevent tree shaking
 FASTAnchor;
 FASTBadge;
 FASTDivider;
 FASTDesignSystemProvider;
+FASTInlineLogo;
 
 /**
  * The links to examples
